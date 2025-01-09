@@ -1,4 +1,5 @@
 # eCommerce-mern-project-led
+ Milestone 1: Project Overview 
 ## **Overview of the E-Commerce Website**  
 This project is an e-commerce web application built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js). It focuses on providing a hands-on experience with real-world development concepts and tools.  
 
