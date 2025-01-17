@@ -1,8 +1,16 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# eCommerce-mern-project-led
+ Milestone 1: Project Overview 
+## **Overview of the E-Commerce Website**  
+This project is an e-commerce web application built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js). It focuses on providing a hands-on experience with real-world development concepts and tools.  
 
-Currently, two official plugins are available:
+### **Key Goals of the Project**  
+1. **User Authentication:** Users can register and log in to access their accounts securely.  
+2. **Product Management:** APIs are created to add, update, and retrieve product data.  
+3. **Order Handling:** Users can place orders, and APIs are designed to manage customer orders.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **Core Functionalities**  
+- Secure login and registration system.  
+- REST APIs for managing users, products, and orders.  
+- Basic database schema design using MongoDB to define data structures and relationships.  
+>>>>>>> 2c14be11e9eb71ba152bfa836ff510e85e87a93c
