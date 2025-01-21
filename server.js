@@ -3,6 +3,8 @@ const mongoose = require("mongoose");
 require("dotenv").config(); // Load environment variables
 
 const productRoutes = require("./routes/productRoutes"); // Import product routes
+const userRoutes = require("./routes/userRoutes"); // Import user routes
+const uploadRoutes = require("./routes/uploadRoutes"); // Import upload routes
 
 const app = express();
 
@@ -11,7 +13,12 @@ app.use(express.json());
 
 // Connect to MongoDB
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect(process.env.MONGO_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    ssl: true, // Enable SSL
+    tls: true, // Enforce TLS for secure connection
+  })
   .then(() => {
     console.log("Connected to MongoDB");
   })
@@ -19,8 +26,10 @@ mongoose
     console.error("Error connecting to MongoDB:", err.message);
   });
 
-// Use product routes
-app.use("/api/products", productRoutes);
+// Use routes
+app.use("/api/products", productRoutes); // Products route
+app.use("/api/users", userRoutes); // Users route
+app.use("/api/upload", uploadRoutes); // Upload route
 
 // Basic route for testing
 app.get("/", (req, res) => {
