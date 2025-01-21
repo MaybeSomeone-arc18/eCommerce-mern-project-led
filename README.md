@@ -1,16 +1,18 @@
+# E-Commerce Backend
 
-# eCommerce-mern-project-led
- Milestone 1: Project Overview 
-## **Overview of the E-Commerce Website**  
-This project is an e-commerce web application built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js). It focuses on providing a hands-on experience with real-world development concepts and tools.  
+Welcome to the E-Commerce Backend project! This is a Node.js-based backend for an e-commerce application that connects to MongoDB to manage product data. This backend handles basic CRUD operations for products and sets up the foundation for further development.
 
-### **Key Goals of the Project**  
-1. **User Authentication:** Users can register and log in to access their accounts securely.  
-2. **Product Management:** APIs are created to add, update, and retrieve product data.  
-3. **Order Handling:** Users can place orders, and APIs are designed to manage customer orders.  
+## Project Setup
 
-### **Core Functionalities**  
-- Secure login and registration system.  
-- REST APIs for managing users, products, and orders.  
-- Basic database schema design using MongoDB to define data structures and relationships.  
->>>>>>> 2c14be11e9eb71ba152bfa836ff510e85e87a93c
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account to connect to a remote database
+- A text editor (e.g., Visual Studio Code)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository_url>
+   cd ecommerce-app/Backend
