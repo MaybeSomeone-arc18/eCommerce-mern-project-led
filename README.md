@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # E-Commerce Backend
 
 Welcome to the E-Commerce Backend project! This is a Node.js-based backend for an e-commerce application that connects to MongoDB to manage product data. This backend handles basic CRUD operations for products and sets up the foundation for further development.
@@ -16,3 +17,4 @@ Welcome to the E-Commerce Backend project! This is a Node.js-based backend for a
    ```bash
    git clone <repository_url>
    cd ecommerce-app/Backend
+
